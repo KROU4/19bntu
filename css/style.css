@@ -32,9 +32,10 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; /* Центрирование по горизонтали */
     padding: 20px;
     flex: 1; /* Контейнер растягивается, чтобы заполнить пространство */
+    width: calc(100% - 40px); /* 100% ширины минус 20px с каждой стороны */
 }
 
 header {
